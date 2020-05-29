@@ -2,6 +2,7 @@
   <div class="card-body">
     <h5 class="card-title">{{ contact.name }}</h5>
     <p class="card-text">{{ contact.telephone }}</p>
+    <p class="card-text">{{ contact.address }}</p>
   </div>
   <div class="card-footer">
     <button class="btn btn-success" (click)="editContact(contact, contact.key)">

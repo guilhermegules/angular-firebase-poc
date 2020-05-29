@@ -24,6 +24,7 @@ export class EditContactComponent implements OnInit {
         this.contact = new Contact();
         this.contact.name = data.contact.name;
         this.contact.telephone = data.contact.telephone;
+        this.contact.address = data.contact.address;
         this.key = data.key;
       }
     });
