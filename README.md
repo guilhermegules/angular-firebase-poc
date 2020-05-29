@@ -4,11 +4,14 @@
 </p>
 
 ## In this poc is used:
+
 - [Angular 9](https://angular.io/);
 - [Firebase](https://firebase.google.com/?hl=pt-br);
 
 ## Configs needed:
-You need to add your configs of firebase on `enviroments.ts`, for this you need to create a app web in official [site](https://firebase.google.com/?hl=pt-br), go in configs and get your `Firebase SDK snippet`, you estructure is basically this: 
+
+You need to add your configs of firebase on `enviroments.ts`, for this you need to create a app web in official [site](https://firebase.google.com/?hl=pt-br), go in configs and get your `Firebase SDK snippet`, you estructure is basically this:
+
 ```
 var firebaseConfig = {
 
@@ -30,4 +33,10 @@ var firebaseConfig = {
 ```
 
 ## Running application:
+
 - Start Application `npm start`;
+
+<h2 align="center">Layout demo</h2>
+<p align="center">
+  <img src="./images/angular-firebase-poc.gif" alt="Demonstration layout">
+</p>
