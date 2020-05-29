@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: 'AIzaSyBziQPSMoC5ue-C9YSCSFk1xyyEFYUex9E',
-    authDomain: 'angular-firebase-poc-6cec9.firebaseapp.com',
-    databaseURL: 'https://angular-firebase-poc-6cec9.firebaseio.com',
-    projectId: 'angular-firebase-poc-6cec9',
-    storageBucket: 'angular-firebase-poc-6cec9.appspot.com',
-    messagingSenderId: '230530228306',
-    appId: '1:230530228306:web:8f0616e4535a471fd83f8b',
+    apiKey: 'YOUR_API_KEY_HERE',
+    authDomain: 'YOUR_AUTH_DOMAIN_HERE',
+    databaseURL: 'DATABASE_URL_HERE',
+    projectId: 'YOUR_PROJECT_ID_HERE',
+    storageBucket: 'STORAGE_BUCKET_HERE',
+    messagingSenderId: 'MESSAGE_SENDER_ID',
+    appId: 'APP_ID',
   },
 };
 
