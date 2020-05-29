@@ -1,27 +1,33 @@
-# AngularFirebasePoc
+<h1 align="center">Angular Firebase Poc :volcano:</h1>
+<p align="center">
+  <img src="./src/assets/angular-firebase.png" alt="Angular and Fireship icons">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+## In this poc is used:
+- [Angular 9](https://angular.io/);
+- [Firebase](https://firebase.google.com/?hl=pt-br);
 
-## Development server
+## Configs needed:
+You need to add your configs of firebase on `enviroments.ts`, for this you need to create a app web in official [site](https://firebase.google.com/?hl=pt-br), go in configs and get your `Firebase SDK snippet`, you estructure is basically this: 
+```
+var firebaseConfig = {
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+	apiKey: "AIzaSyBziQPSMoC5ue-C9YSCSFk1xyyEFYUex9E",
 
-## Code scaffolding
+	authDomain: "angular-firebase-poc-6cec9.firebaseapp.com",
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+	databaseURL: "https://angular-firebase-poc-6cec9.firebaseio.com",
 
-## Build
+	projectId: "angular-firebase-poc-6cec9",
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+	storageBucket: "angular-firebase-poc-6cec9.appspot.com",
 
-## Running unit tests
+	messagingSenderId: "230530228306",
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+	appId: "1:230530228306:web:8f0616e4535a471fd83f8b"
 
-## Running end-to-end tests
+};
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Running application:
+- Start Application `npm start`;
